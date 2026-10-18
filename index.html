@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+    <html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Admision SENATI | Carreras tecnicas que te ponen por ...</title>
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar">
+                <a href="#" class="logo">
+                    <img src="img/logo.png" alt="img_nav_logo" class="img_nav_logo" width="271" height="69">
+                </a>
+                <ul class="nav_list">
+                    <li><a href="#"> Nosotros </a></li>
+                    <li><a href="#"> Carreras 3 años </a></li>
+                    <li><a href="#"> Carreras 4 años </a></li>
+                    <li><a href="#"> Carreras 4 años </a></li>
+                    <li><a href="#"> Carreras virtuales </a></li>
+                    <li><a href="#"> Sedes </a></li>
+                    <li><a href="#" class="nav_the_link"> Inscribe Online Aquí </a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="front_page">
+
+                <img src="img/parch.png" class="img_front_parch_left" alt="img_front_parch_left" width="1108" height="868">
+
+                <div class="frist_panel">
+                <img src="img/medal.png" alt="img_medal_frist_panel" class="img_medal_frist_panel">
+                    <p class="text_frist_panel">
+                        Reconocidos como el Mejor Instituto de Educación <br>
+                        Superior por
+                        <span class="salient_text_frist_panel"> 15 años consecutivos* </span>  <br>
+                        <span class="the_small_text_frist_panel"> *IPSOS Perú - Estudio de Imagen y Percepción de Institutos - Universo Postulantes 2025 </span>
+                    </p>
+                </div>
+
+                    <div class="the_form">
+                        <div class="top_panel_form">
+                            <p class="the_frist_title_panel_from">SOLICITA INFORMACIÓN AQUÍ</p>
+                            <p class="the_second_title_panel_from">Completa tus datos y nuestros asesores se contactarán contigo</p>
+                    </div>
+
+                    <div id="input_of_from_part_1">
+                        <label class="top_form_checkbox">
+                                <input type="radio" name="tipo_admision">
+                                <span> Admisión Regular (3 años) </span>
+                        </label>
+                        <label class="top_form_checkbox">
+                                <input type="radio" name="tipo_admision">
+                                <span> Carreras para personas que trabajan (3 años) </span>
+                        </label>
+                    </div>
+
+                    <div class="input_of_from_part_to_pars">
+                        <select class="general_short_selector">
+                            <option value="dni"> DNI </option>
+                            <option value="ce"> Carnét de Extranjería </option>
+                        </select>
+
+                        <input type="text" placeholder="Número de documento" class="input_general" maxlength="8" inputmode="numeric" oninput="this.value = this.value.replace(/[^0-9]/g, '')">
+                    </div>
+
+                    <div class="input_of_from_part_to_pars">
+                        <input type="text" placeholder="Nombres" class="input_general">
+                        <input type="text" placeholder="Apellidos" class="input_general">
+                    </div>
+
+                    <div class="input_of_from_part_to_pars">
+                        <input type="text" placeholder="Celular" class="input_general" maxlength="9" inputmode="numeric" oninput="this.value = this.value.replace(/[^0-9]/g, '')">
+                        <input type="email" placeholder="Correo Electronico" class="input_general">
+                    </div>
+
+                    <select class="modalidad_selector">
+                        <option value="select_modalidad"> Seleeciona Modalidad de estudio </option>
+                        <option value="Presencial"> Presencial </option>
+                        <option value="Remoto"> Remoto </option>
+                    </select>
+
+                    <div class="input_of_from_part_to_pars">
+                        <select class="general_short_selector">
+                            <option value="select_region"> Seleccionar Region </option>
+                            <option value="amazonas">Amazonas</option>
+                            <option value="ancash">Áncash</option>
+                            <option value="apurimac">Apurímac</option>
+                            <option value="arequipa">Arequipa</option>
+                            <option value="ayacucho">Ayacucho</option>
+                            <option value="cajamarca">Cajamarca</option>
+                            <option value="callao">Callao</option>
+                            <option value="cusco">Cusco</option>
+                            <option value="huancavelica">Huancavelica</option>
+                            <option value="huanuco">Huánuco</option>
+                            <option value="ica">Ica</option>
+                            <option value="junin">Junín</option>
+                            <option value="la_libertad">La Libertad</option>
+                            <option value="lambayeque">Lambayeque</option>
+                            <option value="lima">Lima</option>
+                            <option value="loreto">Loreto</option>
+                            <option value="madre_de_dios">Madre de Dios</option>
+                            <option value="moquegua">Moquegua</option>
+                            <option value="pasco">Pasco</option>
+                            <option value="piura">Piura</option>
+                            <option value="puno">Puno</option>
+                            <option value="san_martin">San Martín</option>
+                            <option value="tacna">Tacna</option>
+                            <option value="tumbes">Tumbes</option>
+                            <option value="ucayali">Ucayali</option>
+                        </select>
+
+
+                        <select class="general_short_selector">
+                            <option value="select_sede"> Seleccionar Sede </option>
+                            <option value="lima">Lima</option>
+                            <option value="ancon">Ancón</option>
+                            <option value="ate">Ate</option>
+                            <option value="barranco">Barranco</option>
+                            <option value="brena">Breña</option>
+                            <option value="carabayllo">Carabayllo</option>
+                            <option value="chaclacayo">Chaclacayo</option>
+                            <option value="chorrillos">Chorrillos</option>
+                            <option value="cieneguilla">Cieneguilla</option>
+                            <option value="comas">Comas</option>
+                            <option value="el_agustino">El Agustino</option>
+                            <option value="independencia">Independencia</option>
+                            <option value="jesus_maria">Jesús María</option>
+                            <option value="la_molina">La Molina</option>
+                            <option value="la_victoria">La Victoria</option>
+                            <option value="lince">Lince</option>
+                            <option value="los_olivos">Los Olivos</option>
+                            <option value="lurigancho">Lurigancho-Chosica</option>
+                            <option value="lurin">Lurín</option>
+                            <option value="magdalena_del_mar">Magdalena del Mar</option>
+                            <option value="miraflores">Miraflores</option>
+                            <option value="pachacamac">Pachacámac</option>
+                            <option value="pucusana">Pucusana</option>
+                            <option value="pueblo_libre">Pueblo Libre</option>
+                            <option value="puente_piedra">Puente Piedra</option>
+                            <option value="punta_hermosa">Punta Hermosa</option>
+                            <option value="punta_negra">Punta Negra</option>
+                            <option value="rimac">Rímac</option>
+                            <option value="san_bartolo">San Bartolo</option>
+                            <option value="san_borja">San Borja</option>
+                            <option value="san_isidro">San Isidro</option>
+                            <option value="san_juan_de_lurigancho">San Juan de Lurigancho</option>
+                            <option value="san_juan_de_miraflores">San Juan de Miraflores</option>
+                            <option value="san_luis">San Luis</option>
+                            <option value="san_martin_de_porres">San Martín de Porres</option>
+                            <option value="san_miguel">San Miguel</option>
+                            <option value="santa_anita">Santa Anita</option>
+                            <option value="santa_maria_del_mar">Santa María del Mar</option>
+                            <option value="santa_rosa">Santa Rosa</option>
+                            <option value="surco">Santiago de Surco</option>
+                            <option value="surquillo">Surquillo</option>
+                            <option value="villa_el_salvador">Villa El Salvador</option>
+                            <option value="villa_maria_del_triunfo">Villa María del Triunfo</option>
+                        </select>
+                    </div>
+
+
+                    <select class="modalidad_selector">
+                        <option value="select_modalidad"> Seleccionar la carrera de interés </option>
+                        <option value="ingenieria_software">Ingeniería de Software</option>
+                        <option value="ingenieria_sistemas">Ingeniería de Sistemas</option>
+                        <option value="ciencias_de_la_computacion">Ciencias de la Computación</option>
+                        <option value="desarrollo_web">Desarrollo Web / Full-Stack</option>
+                        <option value="desarrollo_movil">Desarrollo de Aplicaciones Móviles</option>
+                        <option value="seguridad_informatica">Ciberseguridad y Seguridad Informática</option>
+                        <option value="redes_y_comunicaciones">Administración de Redes y Comunicaciones</option>
+                        <option value="analisis_de_datos">Análisis de Datos / Big Data</option>
+                        <option value="ciencia_de_datos">Ciencia de Datos (Data Science)</option>
+                        <option value="inteligencia_artificial">Inteligencia Artificial y Machine Learning</option>
+                        <option value="arquitectura_cloud">Arquitectura Cloud y Computación en la Nube</option>
+                        <option value="devops">Ingeniería DevOps</option>
+                        <option value="administracion_bases_datos">Administración de Bases de Datos (DBA)</option>
+                        <option value="soporte_ti">Soporte y Mantenimiento de TI</option>
+                        <option value="desarrollo_videojuegos">Desarrollo de Videojuegos</option>
+                        <option value="gestion_proyectos_ti">Gestión de Proyectos de TI</option>
+                        <option value="auditoria_ti">Auditoría de Sistemas de Información</option>
+                        <option value="iot">Internet de las Cosas (IoT)</option>
+                    </select>
+
+
+                    <div id="the_checkboxs_of_eula">
+                        <label class="checkbox_of_eula">
+                                <input type="checkbox" class="checkbox_of_eula_the_box">
+                                <span> Solicito que se comuniquen conmigo para brindarme información </span> <br>
+                        </label>
+                        <label class="checkbox_of_eula">
+                                <input type="checkbox" class="checkbox_of_eula_the_box">
+                                <span> Acepto las políticas de privacidad y uso de datos menores de edad </span> <br>
+                        </label>
+                        <label class="checkbox_of_eula">
+                                <input type="checkbox" class="checkbox_of_eula_the_box">
+                                <span> Carreras para personas que trabajan(3 años) </span> <br>
+                        </label>
+
+
+                    <div id="seend_part_final_of_the_form">
+                        <p> Enviar </p>
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="frist_part">
+                <p class="great_title_of_frist_part">¿POR QUÉ ESTUDIAR <span id="great_title_of_frist_part_marked"> EN SENATI? </span></p>
+                <div class="div_of_key_patches">
+                    <div class="key_patches">
+                        <img src="img/frist_part_main/image1.png" alt="img_of_frist_part">
+                        <div class="text_of_keys_partches_frist_part">
+                            <p class="title_of_keys_partches_frist">ESTUDIANTES TRABAJA</p>
+                            <p>antes de terminar su carrera</p>
+                        </div>
+                    </div>
+                    <div class="key_patches">
+                        <img src="img/frist_part_main/image2.png" alt="img_of_frist_part">
+                        <div class="text_of_keys_partches_frist_part">
+                            <p class="title_of_keys_partches_frist">MEJOR INSTITUTO</p>
+                            <p>de educación superior por 15 años consecutivos</p>
+                        </div>
+                    </div>
+                    <div class="key_patches">
+                        <img src="img/frist_part_main/image3.png" alt="img_of_frist_part">
+                        <div class="text_of_keys_partches_frist_part">
+                            <p class="title_of_keys_partches_frist">DE NUESTROS EGRESADOS</p>
+                            <p>consiguió su primer empleo gracias a su aprendizaje 100% práctico</p>
+                        </div>
+                    </div>
+                    <div class="key_patches">
+                        <img src="img/frist_part_main/image4.png" alt="img_of_frist_part">
+                        <div class="text_of_keys_partches_frist_part">
+                            <p class="title_of_keys_partches_frist">MÁS DE 1000 LABORATORIOS</p>
+                            <p>aprende con infraestructura de clase mundial</p>
+                        </div>
+                    </div>
+                    <div class="key_patches">
+                        <img src="img/frist_part_main/image5.png" alt="img_of_frist_part">
+                        <div class="text_of_keys_partches_frist_part">
+                            <p class="title_of_keys_partches_frist">EGRESADOS TRABAJAN</p>
+                            <p>en la carrera que estudió*</p>
+                        </div>
+                    </div>
+                    <div class="key_patches">
+                        <img src="img/frist_part_main/image6.png" alt="img_of_frist_part">
+                        <div class="text_of_keys_partches_frist_part">
+                            <p class="title_of_keys_partches_frist">LOS SENATINOS SON LOS MEJOR PAGADOS</p>
+                            <p>de los egresados de institutos</p>
+                        </div>
+                    </div>
+                </div>
+            <p class="mini_subtitle_of_frist_part">*Fuente: Arellano - Estudio de Empleabilidad SENATI Agosto 2025 <br> **Fuente: IPSOS - Estudio de Imagen y Percepción de Institutos Mercado Postulantes 2025</p>
+            </div>
+
+            <div id="second_part">
+                <p id="the_title_second_part"> CONOCE A NUESTROS SENATINOS EXITOSOS  <br><span id="the_title_second_part_marked"> QUE DESTACAN EN PERÚ Y EL MUNDO </span></p>
+
+                <div id="carousel_more_btn">
+                    <button type="submit" onclick="move_in_carousel()" class="button_manage_to_carousel" aria-label="izquierda"> &lt; </button>
+
+                    <div class="carousel_successful">
+                        <div class="item_of_carousel">
+                            <img src="img/second_part_main/successful_1.png" alt="img_successful" width="380" height="450">
+
+                            <p class="the_title_of_items_in_carousel">Sckarleth Sánchez</p>
+
+                            <div class="div_for_text_and_flag">
+                                <img src="img/second_part_main/flags/pe.png" alt="img_flag_of_successful">
+                                <p class="the_text_of_items_in_carousel">Jefa de Diseño y Comunicaciones en Inka Crops</p>
+                            </div>
+
+                            <div class="capsule_of_info_degree">
+                                <p>Egresada de la Carrera de Diseño Gráfico</p>
+                            </div>
+
+                        </div>
+                        <div class="item_of_carousel">
+                            <img src="img/second_part_main/successful_2.png" alt="img_successful" width="380" height="450">
+
+                            <p class="the_title_of_items_in_carousel">Alejandro Escobar</p>
+
+                            <div class="div_for_text_and_flag">
+                                <img src="img/second_part_main/flags/us.png" alt="img_flag_of_successful">
+                                <p class="the_text_of_items_in_carousel">Líder de Mantenimiento en Holly Poultry Inc. – Maryland (USA)</p>
+                            </div>
+
+                            <div class="capsule_of_info_degree">
+                                <p>Egresado de la Carrera de Mecánica de Mantenimiento</p>
+                            </div>
+
+                        </div>
+                        <div class="item_of_carousel">
+                            <img src="img/second_part_main/successful_3.png" alt="img_successful" width="380" height="450">
+
+                            <p class="the_title_of_items_in_carousel">Milagros Gómez</p>
+
+                            <div class="div_for_text_and_flag">
+                                <img src="img/second_part_main/flags/pe.png" alt="img_flag_of_successful">
+                                <p class="the_text_of_items_in_carousel">Analista de Calidad (QA/QC) en APTIM Perú</p>
+                            </div>
+
+                            <div class="capsule_of_info_degree">
+                                <p>Egresada de la Carrera de Administración Industrial</p>
+                            </div>
+
+                        </div>
+                        <div class="item_of_carousel" style="display: none;">
+                            <img src="img/second_part_main/successful_4.png" alt="img_successful" width="380" height="450">
+
+                            <p class="the_title_of_items_in_carousel">EDISON JAIMES</p>
+
+                            <div class="div_for_text_and_flag">
+                                <img src="img/second_part_main/flags/us.png" alt="img_flag_of_successful">
+                                <p class="the_text_of_items_in_carousel">Técnico Inspector en The Boeing Company (USA)</p>
+                            </div>
+
+                            <div class="capsule_of_info_degree">
+                                <p>Egresado de la carrera de Mecánica de Mantenimiento</p>
+                            </div>
+
+                        </div>
+                        <div class="item_of_carousel" style="display: none;">
+                            <img src="img/second_part_main/successful_5.png" alt="img_successful" width="380" height="450">
+
+                            <p class="the_title_of_items_in_carousel">AXEL MANSILLA</p>
+
+                            <div class="div_for_text_and_flag">
+                                <img src="img/second_part_main/flags/de.png" alt="img_flag_of_successful">
+                                <p class="the_text_of_items_in_carousel">Consultor Energético en Empresa IFE (Alemania)</p>
+                            </div>
+
+                            <div class="capsule_of_info_degree">
+                                <p>Egresado de la carrera de Mecánica Automotriz</p>
+                            </div>
+
+                        </div>
+                        <div class="item_of_carousel" style="display: none;">
+                            <img src="img/second_part_main/successful_6.png" alt="img_successful" width="380" height="450">
+
+                            <p class="the_title_of_items_in_carousel">CESAR CANALES</p>
+
+                            <div class="div_for_text_and_flag">
+                                <img src="img/second_part_main/flags/pe.png" alt="img_flag_of_successful">
+                                <p class="the_text_of_items_in_carousel">Gerente General de Tek Perú</p>
+                            </div>
+
+                            <div class="capsule_of_info_degree">
+                                <p>Egresado de la carrera de Control de Maquinarias y Procesos Industriales</p>
+                            </div>
+
+                        </div>
+                        <div class="item_of_carousel" style="display: none;">
+                            <img src="img/second_part_main/successful_7.png" alt="img_successful" width="380" height="450">
+
+                            <p class="the_title_of_items_in_carousel">Yenni Yllisca</p>
+
+                            <div class="div_for_text_and_flag">
+                                <img src="img/second_part_main/flags/es.png" alt="img_flag_of_successful">
+                                <p class="the_text_of_items_in_carousel">Especialista de Selección en CT Ingenieros</p>
+                            </div>
+
+                            <div class="capsule_of_info_degree">
+                                <p>Especialista de Selección en CT Ingenieros</p>
+                            </div>
+
+                        </div>
+                        <div class="item_of_carousel" style="display: none;">
+                            <img src="img/second_part_main/successful_8.png" alt="img_successful" width="380" height="450">
+
+                            <p class="the_title_of_items_in_carousel">Ing. Freddy Neyra Medina</p>
+
+                            <div class="div_for_text_and_flag">
+                                <img src="img/second_part_main/flags/pe.png" alt="img_flag_of_successful">
+                                <p class="the_text_of_items_in_carousel">Commercial Technical Support Engineer – ZF Group Perú</p>
+                            </div>
+
+                            <div class="capsule_of_info_degree">
+                                <p>Commercial Technical Support Engineer – ZF Group Perú</p>
+                            </div>
+
+                        </div>
+                        <div class="item_of_carousel" style="display: none;">
+                            <img src="img/second_part_main/successful_9.png" alt="img_successful" width="380" height="450">
+
+                            <p class="the_title_of_items_in_carousel">Claritza Carrillo</p>
+
+                            <div class="div_for_text_and_flag">
+                                <img src="img/second_part_main/flags/pe.png" alt="img_flag_of_successful">
+                                <p class="the_text_of_items_in_carousel">Técnica de Mecánica Automotriz en Komatsu-Mitsui</p>
+                            </div>
+
+                            <div class="capsule_of_info_degree">
+                                <p>Técnica de Mecánica Automotriz en Komatsu-Mitsui</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" onclick="move_in_carousel()" class="button_manage_to_carousel" aria-label="derecha">  &gt; </button>
+                </div>
+            </div>
+
+            <div id="third_part">
+                <div id="great_toten_of_third_part">
+                    <img src="img/third_part_main/people1.png" alt="img_people_1_of_third_part" id="img_people_1_of_third_part" width="355" height="360">
+
+                    <div id="mid_of_great_token">
+                        <div id="mid_of_great_token_only_text">
+                            <p id="text_in_mid_of_great_token1">ESTUDIA A TU RITMO, DEJAR DE CUMPLIR TUS METAS</p>
+                            <p id="text_in_mid_of_great_token2">ELIGE EL TURNO Y LA MODALIDAD QUE MEJOR SE ADAPTA A TI</p>
+                            <p id="text_in_mid_of_great_token3">En SENATI tú eliges cómo avanzar: puedes estudiar de día, noche y/o fines de semana. Modalidad semi-presencial o remota.</p>
+                        </div>
+
+                        <div id="capsule_in_mid_of_third_part">
+                            <p>PORQUE TU FUTURO NO TIENE UN SOLO HORARIO</p>
+                        </div>
+                    </div>
+
+                    <img src="img/third_part_main/people2.png" alt="img_people_2_of_third_part" id="img_people_2_of_third_part" width="355" height="360">
+                </div>
+            </div>
+
+            <div id="quarter_part">
+                <p id="great_title_of_quarter_part">CONOCE NUESTRAS CARRERAS TÉCNICAS DE GRAN DEMANDA LABORAL</p>
+                <p id="great_subtitle_of_quarter_part">Contamos con 15 especialidades y más de 75 carreras técnicas</p>
+
+                <div id="conteiner_of_university_career_carousel">
+                    <button type="submit" onclick="move_in_carousel()" class="button_manage_to_carousel_to_carrers" aria-label="izquierda"> &lt; </button>
+                    <div id="university_career_carousel">
+
+                        <div class="capsule_of_info_of_carrer_to_carousel">
+                            <img src="img/quarter_part_main/logo_career/logo1.png" alt="" with="35" height="35">
+                            <p>Tecnologías de la Información</p>
+                        </div>
+
+                        <div class="capsule_of_info_of_carrer_to_carousel">
+                            <img src="img/quarter_part_main/logo_career/logo2.png" alt="" with="35" height="35">
+                            <p>Administración de empresas</p>
+                        </div>
+
+                        <div class="capsule_of_info_of_carrer_to_carousel">
+                            <img src="img/quarter_part_main/logo_career/logo3.png" alt="" with="35" height="35">
+                            <p>Electrotecnia</p>
+                        </div>
+
+                        <div class="capsule_of_info_of_carrer_to_carousel">
+                            <img src="img/quarter_part_main/logo_career/logo4.png" alt="" with="35" height="35">
+                            <p>Mantenimiento</p>
+                        </div>
+
+                        <div class="capsule_of_info_of_carrer_to_carousel">
+                            <img src="img/quarter_part_main/logo_career/logo5.png" alt="" with="35" height="35">
+                            <p>Mecánica Automotriz</p>
+                        </div>
+
+                    </div>
+                    <button type="submit" onclick="move_in_carousel()" class="button_manage_to_carousel_to_carrers" aria-label="izquierda"> &gt; </button>
+                </div>
+
+                <div id="conteiner_of_carousel_workers">
+                    <button type="submit" onclick="move_in_carousel()" class="button_manage_to_carousel_to_workes" aria-label="izquierda"> &lt; </button>
+                    <div id="carousel_workers">
+                        <div class="cart_of_worker_of_quarter_part" id="cart_of_worker_of_quarter_part_id_to_img_1"></div>
+                        <div class="cart_of_worker_of_quarter_part" id="cart_of_worker_of_quarter_part_id_to_img_2"></div>
+                        <div class="cart_of_worker_of_quarter_part" id="cart_of_worker_of_quarter_part_id_to_img_3"></div>
+                    </div>
+                    <button type="submit" onclick="move_in_carousel()" class="button_manage_to_carousel_to_workes" aria-label="derecha">  &gt; </button>
+                </div>
+            </div>
+
+        </main>
+
+        <footer>
+            <div id="alone_part_of_footer">
+                <p id="text_of_alone_part_of_footer_1"> SENATI - Todos los derechos reservados </p>
+                <p id="text_of_alone_part_of_footer_2"> Contacto Whatsapp: 946973754 </p>
+            </div>
+        </footer>
+    </body>
+
+</html>
+<script src="node.js"></script>
